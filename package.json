@@ -1,0 +1,28 @@
+{
+  "name": "project-generator",
+  "version": "0.0.1",
+  "description": "Project Generator written in node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "generate": "./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/msirrele/node-project-generator.git"
+  },
+  "keywords": [
+    "node.js"
+  ],
+  "author": "Sirrele <mssteinfeld@gmail.com> (www.sirrele.io)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/msirrele/node-project-generator/issues"
+  },
+  "homepage": "https://github.com/msirrele/node-project-generator#readme",
+  "dependencies": {
+    "inquirer": "^3.2.2"
+  }
+}
